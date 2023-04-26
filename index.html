@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cryptonow Europe - in the making</title>
+    <style>
+      @font-face {
+        font-family: "Denim";
+        font-weight: normal;
+        font-display: block;
+        src: local("Denim-Regular"),
+          url(font/Denim-Regular.woff2) format("woff2"),
+          url(font/Denim-Regular.woff) format("woff");
+      }
+
+      @font-face {
+        font-family: "Denim";
+        font-weight: 500;
+        font-display: block;
+        src: local("Denim-Medium"), url(font/Denim-Medium.woff2) format("woff2"),
+          url(font/Denim-Medium.woff) format("woff");
+      }
+
+      @font-face {
+        font-family: "Denim";
+        font-weight: 600;
+        font-display: block;
+        src: local("Denim-SemiBold"),
+          url(font/Denim-SemiBold.woff2) format("woff2"),
+          url(font/Denim-SemiBold.woff) format("woff");
+      }
+      body {
+        margin: 0;
+        font-family: "Denim", -apple-system, BlinkMacSystemFont, "Segoe UI",
+          "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+          "Helvetica Neue", sans-serif;
+      }
+      .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 5rem;
+        height: 100vh;
+        box-sizing: border-box;
+      }
+      .container {
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        max-width: 800px;
+      }
+      @media screen and (max-width: 768px) {
+        .container {
+          flex-direction: column;
+          text-align: center;
+        }
+      }
+      .logo {
+        margin-bottom: 2rem;
+      }
+      .promo {
+        display: flex;
+        width: fit-content;
+        align-items: center;
+      }
+      .column {
+        flex: 1;
+        padding: 1rem;
+        font-size: 1.25rem;
+      }
+      .column img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 2rem 2rem 0 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <img class="logo" src="img/cryptonow-logo-black.svg" />
+      <div class="container">
+        <div class="column promo">
+          <img src="img/cryptonow-promo.png" />
+        </div>
+        <div class="column">
+          <h2>In the making.</h2>
+          <p>
+            Cryptonow Europe GmbH<br />
+            Bahnhofstr. 32<br />
+            09648 Mittweida<br />
+            Deutschland<br />
+          </p>
+          <p>
+            Cryptonow Group AG<br />
+            Schutzegelstrasse 36<br />
+            6340 Baar<br />
+            Schweiz<br />
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
